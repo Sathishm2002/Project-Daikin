@@ -1,0 +1,17 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.emailReport {
+  input {
+    width: 100%;
+  }
+  .label {
+    @include fontCustomStyle(1px, 600, #333333, 1px);
+  }
+
+  .sendReportBtn {
+    width: 356.36px !important;
+    height: 40px !important;
+    margin: 15px 0;
+
+  }
+}

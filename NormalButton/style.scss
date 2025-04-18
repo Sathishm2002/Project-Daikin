@@ -1,0 +1,160 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.button_custom {
+  .btn {
+    // text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    height: 40px;
+    padding: 12px;
+    // min-width: 188px;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    &.primary-btn {
+      background: #149CE0;
+      width: 166px;
+      height: 44px;
+      color: #DDDFE0;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.3px;
+      // min-width: 140px !important;
+      padding: 0 0.3em;
+    }
+
+    &.white-btn {
+      background: #FFF;
+      color: #25282b;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 22px;
+      border: 1px solid #cacccf;
+      border-radius: 4px;
+      transition: 0.2s all;
+      min-width: 130px !important;
+      padding: 0 2em;
+
+      &:hover {
+        background-color: $primary-color;
+        color: #FFF;
+        border: 1px solid $primary-color;
+      }
+    }
+
+    &.primary2-btn {
+      background: $primary-color;
+      border-radius: 25.5px;
+      font-weight: 500;
+      font-size: 1.125rem;
+      line-height: 27px;
+      border: 1px solid transparent;
+      color: #FFF;
+
+      &:hover {
+        color: $danger-color;
+        background: transparent;
+        border: 1px solid $danger-color;
+        transition: 0.3s ease-in-out;
+      }
+    }
+
+    &.outlineBtn {
+      background:#FFF;
+      color: #000;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      border: 1px solid #000;
+      // min-width: 140px !important;
+      transition: 0.2s all;
+      padding: 10px;
+      border-radius: 6px;
+      width: 70px;
+      height: 20px;
+
+      &:hover {
+        background-color: white;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+      }
+    }
+    &.btn100 {
+      background: #FFF;
+      color: $primary-color;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 22px;
+      border: 1px solid $primary-color;
+      min-width: 100px !important;
+      transition: 0.2s all;
+      padding: 0 0.3em;
+
+      &:hover {
+        background-color: $primary-color;
+        color: #FFF;
+        border: 1px solid $primary-color;
+      }
+    }
+
+    &.outlineBtnRadius {
+      background: #FFF;
+      color: $warning-color;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 22px;
+      border: 1px solid $warning-color;
+      transition: 0.2s all;
+      border-radius: 25.5px;
+      padding: 0 2em;
+
+      &:hover {
+        background-color: $primary-color;
+        color: #FFF;
+        border: 1px solid $primary-color;
+      }
+    }
+
+    &.brandBtn {
+      background: $warning-color;
+      border-radius: 5px;
+      color: #FFF;
+    }
+
+    &.green {
+      background: $success-color;
+      border-radius: 5px;
+      min-width: 95px !important;
+      color: #FFF;
+      font-size: 16px !important;
+    }
+    &.secondary-btn {
+      background: #dff2fd;
+      border-radius: 5px;
+      min-width: 95px !important;
+      color: #000000;
+      font-size: 16px !important;
+    }
+
+    &.viewBtn {
+      background: $primary-color;
+      color: #FFF;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 22px;
+      min-width: 100px !important;
+      height: 45px !important;
+      padding: 0 0.3em;
+
+      &:hover {
+        background-color: $warning-color !important;
+        color: #FFF;
+        border: 1px solid $warning-color;
+      }
+    }
+  }
+}
